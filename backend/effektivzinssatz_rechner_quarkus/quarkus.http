@@ -1,0 +1,31 @@
+###
+GET http://localhost:8080/hello
+
+###
+POST http://localhost:8080/rate/effZins
+Content-Type: application/json
+
+{
+  "laufzeit": 10,
+  "einzahlungsDauer": 1,
+  "zahlungenProJahr": 12,
+  "einzahlungsHoehe": 150.00,
+  "endBetrag": 20000.00
+}
+
+###int laufzeit,
+#            int einzahlungsDauer,
+#            int zahlungenProJahr,
+#            BigDecimal einzahlungsHoehe,
+#            BigDecimal  endBetrag
+
+
+
+
+
+
+
+
+
+
+
